@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+
+.header{
+
+    background-color: #eb67843a;
+    width: 100vw;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-box{
+    width: 40%;
+    
+
+}
+
+.header-box-1{
+    margin: 0 0px 0 200px;
+}
+.header-box>img{
+    height: 600px;
+    margin-top: 100px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 60px;
+}
+/* header end */
+
+
+/* external styles */
+p{
+    font-size: 16px;
+    color: #272727a2;
+    padding-top: 25px;
+    text-align: center;
+}
+.p-text{
+    font-size: 16px;
+    color: #272727a2;
+    padding-top: 25px;
+    text-align: left;
+}
+h2{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    margin-top: 140px;
+}
+.btn-primary{
+    background-color: #E55473;
+    padding: 15px 20px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 25px;
+}
+.mid-paragraph{
+    text-align: center;
+    font-size: 16px;
+    color: #272727a2;
+    padding-top: 25px;
+}
+
+
+
+/* external styles end */
+
+/* Our Features Flower */
+
+.roundboxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    height: 430px;
+    border-radius: 50% 50% 0px 0px;
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    
+}
+.box>img{
+    height: 378px;
+    margin-top: 52px;
+    
+}
+
+#box1{
+    /* margin: auto; */
+    background-color: rgba(167, 33, 98, 0.15);
+}
+#box2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+#box3{
+    background-color: rgba(71, 125, 17, 0.15);
+}
+/* .aa{
+    display: grid;
+    grid-template-columns: auto;
+} */
+
+
+
+/* delivery-support start */
+
+.delivery-support{
+    width: 1240px;
+    height: 200px;
+  
+    
+    background-color: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #272727a2;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.delivery-support-box1{
+    width: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+    
+}
+.delivery-support-box2{
+    width: 100px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    
+}
+.delivery-support-box3{
+    width: 100px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    
+}
+
+
+/* delivery-support end */
+
+/* off-25%-box section */
+
+.off-25{
+    height: 500px;
+    display: flex;
+    background-color: rgba(39, 39, 39, 0.05);
+    justify-content: space-around;
+    margin-top: 100px;
+    align-items: center;
+ 
+    
+}
+
+.off-25-box{
+    margin-left: 50px;
+    /* margin-right: 50px; */
+    text-align: center;
+}
+.off-25-box1{
+    /* margin-left: 200px; */
+}
+.off-25-box>img{
+    margin-top: 80px;
+    margin-right: 80px;
+
+}
+
+/* off 25% end */
+
+/* intagram start */
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    
+    /* width: 1240px; */
+    /* background-color: rgb(69, 84, 97); */
+}
+.insta-box>img{
+    width: 100%;
+    height: 100%;
+}
+.insta-box{
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+    width: 280px;
+    height: 320px;
+}
+
+
+
+
+/* form */
+.form{
+    background-image: url("../images/Rectangle\ 9.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 120px;
+    height: 400px;
+}
+.form-h2{
+    padding-top: 100px;
+}
+#emaill{
+    padding: 0;
+}
+input::selection{
+    border: 1px solid #E55473;
+}
+/* .form-input{
+    display: flex;
+    flex-direction: row;
+} */
+input{
+    padding: 10px  0px 0px 0px;
+    width: 550px;
+    height: 50px;
+    font-size: 17px;
+    margin-left: 20%;
+    margin-right: 15px;
+    /* margin-top: 10px; */
+    border: none;
+    background-color: white;
+    border-radius: 8px;
+    /* margin: auto; */
+}
+/* intagram end */
